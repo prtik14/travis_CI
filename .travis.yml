@@ -5,6 +5,7 @@ jdk:
 
 script:
   - mvn clean install
+  
 jobs:
   include:
   -stage: Test
