@@ -3,9 +3,6 @@ jdk:
   - openjdk8
   - oraclejdk8
 script:
-  - jdk_switcher use oraclejdk8
-  - mvn clean install
-  - jdk_switcher use openjdk8
   - mvn clean install
 
 jobs:
