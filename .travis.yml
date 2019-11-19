@@ -3,7 +3,6 @@ jdk:
   - openjdk8
   - openjdk9
 script:
-  - jdk_switcher use openjdk9
   - mvn clean install
 
 jobs:
