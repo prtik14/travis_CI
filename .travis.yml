@@ -4,5 +4,10 @@ jdk:
 script:
   mvn clean install
 
+jobs:
+  include:
+  -stage: Test
+  script: mvn clean test
+
 notifications:
   email: prateek.kumar@triconinfotech.com
